@@ -46,10 +46,17 @@ button:hover {
 
 @media (max-width: 600px) {
     .login-box {
-        width: 70%;
+        width: 90%;
+        padding: 20px;
     }
-    .login-box img {
-        width: 60px;
+    h2 {
+        font-size: 18px;
     }
-    
+    input[type="text"], input[type="password"] {
+        padding: 8px;
+    }
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
 }
