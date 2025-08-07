@@ -47,7 +47,7 @@ button:hover {
 
 @media (max-width: 600px) {
     .login-box {
-        width: 70%;
+        width: 60%;
         padding: 20px;
     }
     h2 {
@@ -55,9 +55,11 @@ button:hover {
     }
     input[type="text"], input[type="password"] {
         padding: 8px;
+        width: 85%;
     }
     button {
         padding: 8px;
         font-size: 14px;
+        width: 96%;
     }
 }
